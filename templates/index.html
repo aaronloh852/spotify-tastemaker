@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block head %} <title>Spotipy</title> {% endblock %} 
+
+{% block body %}
+<div>
+    <div>
+        <link href="../static/css/desktop1.css" rel="stylesheet" />
+  
+        <div class="desktop1-container">
+          <div class="desktop1-desktop1">
+            <div class="desktop1-vector">
+              <img
+                src="../static/img/vector2100-cs7l-1600w.png"
+                alt="Vector2100"
+                class="desktop1-vector1"
+              />
+            </div>
+            <div class="desktop1-group1">
+              <span class="desktop1-text"><span>SPOTIFY</span></span>
+              <span class="desktop1-text2"><span>TASTE</span></span>
+              <span class="desktop1-text4"><span>MAKER</span></span>
+            </div>
+            <div class="ui hidden section divider"></div>
+            <div class="ui container">
+                <a id="loader" href="{{ url_for('request_auth') }}" onclick="load()">
+                    <img
+                    src="../static/img/vectorbutton3114-i2v.svg"
+                    alt="Vectorbutton3114"
+                    class="desktop1-vectorbutton"
+                    />
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+    
+{% endblock %}

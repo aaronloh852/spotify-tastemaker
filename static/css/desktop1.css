@@ -1,0 +1,123 @@
+.desktop1-container {
+  min-height: 100vh;
+}
+.desktop1-desktop1 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: var(--dl-color-default-04);
+}
+.desktop1-vector {
+  top: -160px;
+  left: 589px;
+  width: 1584px;
+  height: 1596px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.desktop1-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 1584px;
+  height: 1596px;
+  position: absolute;
+  border-color: transparent;
+}
+.desktop1-group1 {
+  top: 90px;
+  left: 113px;
+  width: 515px;
+  height: 364px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.desktop1-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 128px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text2 {
+  top: 108px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 128px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-text4 {
+  top: 214px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 128px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop1-vectorbutton {
+  top: 454px;
+  left: 113px;
+  width: 413px;
+  height: 100px;
+  position: absolute;
+  box-sizing: content-box;
+}
+.loader {
+  top: 454px;
+  left: 50px;
+  width: 413px;
+  height: 100px;
+  position: absolute;
+  box-sizing: content-box;
+}
+
+.imagebox {
+  top: 5%;
+  left: 14%;
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+}
